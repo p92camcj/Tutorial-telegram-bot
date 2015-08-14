@@ -90,9 +90,9 @@ Now, knowing which will be our tools, go on!
 
 25. Now everything is ready to work, so `Run` your project using the menu and submenu option.
 ![Run Project](http://i.imgur.com/Kta36qt.png "Run Project")
-26. You must see a `runner panel` below, you have to wait until all proccess have finished, and then open the `terminal` tab (near `console` active tab) 
+26. You must see a `runner panel` below, you have to wait until the whole proccess have finished, and then open the `terminal` tab (near `console` active tab)
 ![Console tab in runner panel](http://i.imgur.com/io3okP8.png "Console tab in runner panel")
-27. Finally, you have to deploy it typing next command line on the `terminal`: `google_appengine/appcfg.py update /home/user/application/`. It ask for you your Google Account credential (email and pass), so you have to ingress them.
+27. Finally, you have to deploy it typing next command line on the `terminal`: `google_appengine/appcfg.py update /home/user/application/`. It will ask for your Google Account credential (email and pass), so you have to ingress them.
 28. If you have had some problems with the previous step and Google sends you an email about your security account, try the next method. Type the next command line on the `terminal`: `google_appengine/appcfg.py update /home/user/application --oauth2 --noauth_local_webserver`. It will print a link. Copy the code and return to terminal codenvy. Right-click on the terminal, select Paste from Browser and paste the code. Be happy :) ![Problems Google?](http://i.imgur.com/lr9xRRT.png "Problems Google?")
 29. Now, try to navegate to [https://tutorial-telegram-bot-p92camcj.appspot.com/set_webhook](https://tutorial-telegram-bot-p92camcj.appspot.com/set_webhook) and if all is correct, you must read "`webhook setup ok`"
 30. Now you speak to your bot in telegram, and if it repeats like a parrot everything you write, you will have successfully completed this tutorial.
