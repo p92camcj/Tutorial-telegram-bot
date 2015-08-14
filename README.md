@@ -10,7 +10,7 @@ By Julio Camacho [@p92camcj](mailto:p92camcj@gmail.com)
 How to create a Telegram Bot using only a Chromebook.
 ===================
 
-This tutorial helps you to create a new Telegram[^telegram] bot[^bot] using only a Chromebook PC[^chromebook] or a web browser (Google Chrome). We are going to use the tool Codenvy[^codenvy], Google App Engine[^GAE] and a [Python Telegram Bot](https://github.com/leandrotoledo/python-telegram-bot)
+This tutorial helps you to create a new Telegram[^1] bot[^2] using only a Chromebook PC[^3] or a web browser (Google Chrome). We are going to use the tool Codenvy[^4], Google App Engine[^5] and a [Python Telegram Bot](https://github.com/leandrotoledo/python-telegram-bot)
 
 I have to thank [Leandro Toledo](https://github.com/leandrotoledo/) for having helped me in this process.
 
@@ -99,12 +99,12 @@ Now, knowing which will be our tools, go on!
 
 
 
-[^telegram]: Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. More info: [telegram.org](http://telegram.org/).
+[^1]: Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. More info: [telegram.org](http://telegram.org/).
 
-[^bot]: Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things. [More info in his blog](https://telegram.org/blog/bot-revolution).
+[^2]: Bots are simply Telegram accounts operated by software – not people – and they'll often have AI features. They can do anything – teach, play, search, broadcast, remind, connect, integrate with other services, or even pass commands to the Internet of Things. [More info in his blog](https://telegram.org/blog/bot-revolution).
 
-[^chromebook]: A Chromebook is a laptop running Chrome OS as its operating system. The devices are designed to be used primarily while connected to the Internet, with most applications and data residing "in the cloud". A Chromebook is an example of a thin client. More info: [google.com/chromebook](https://www.google.com/chromebook/)
+[^3]: A Chromebook is a laptop running Chrome OS as its operating system. The devices are designed to be used primarily while connected to the Internet, with most applications and data residing "in the cloud". A Chromebook is an example of a thin client. More info: [google.com/chromebook](https://www.google.com/chromebook/)
 
-[^codenvy]: Codenvy provides a container-based development environment whose goal is to remove the need for developers to configure or maintain local or VM-based developer environments for their projects. More info: [codenvy.com](http://www.codenvy.com/)
+[^4]: Codenvy provides a container-based development environment whose goal is to remove the need for developers to configure or maintain local or VM-based developer environments for their projects. More info: [codenvy.com](http://www.codenvy.com/)
 
-[^GAE]: Google App Engine (often referred to as GAE or simply App Engine) is a platform as a service (PaaS) cloud computing platform for developing and hosting web applications in Google-managed data centers. 
+[^5]: Google App Engine (often referred to as GAE or simply App Engine) is a platform as a service (PaaS) cloud computing platform for developing and hosting web applications in Google-managed data centers. 
