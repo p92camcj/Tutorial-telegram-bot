@@ -74,7 +74,7 @@ Now, knowing which will be our tools, go on!
 
 19. This step is very important. In the `Select Runner environment` you have to choose `Python/web/python27_gae1914_ext_libs`. Then press `Create`.![enter image description here](https://lh3.googleusercontent.com/FEYf9dtCi5LPGI3_BgaeE_FGEmqhSrYNScT8pGBZkFlZD07-FUs9-QDb4p0dMUoSOQjqAgwfOqV4tgg=w1342-h513 "Select Runner environment")
 
-20. Now you have to download a `test bot`. I have created one to do this tutorial. You can [use it](https://github.com/p92camcj/Tutorial-telegram-bot). 
+20. Now you have to download a `test bot`. I have created one to do this tutorial. You can [use it](https://github.com/p92camcj/Tutorial-telegram-bot/archive/master.zip). 
 
 21. Next step is to Upload Folder from a zip. Go to `menu/file/upload folder from zip` like it appears in this image![enter image description here](https://lh6.googleusercontent.com/rdbk7I2S-nA9I78auqlS52rloLp9OryvOm8D2abThVKhOFdycEYB7Xdol1hDAn-jd-FpQwLObD9nx7w=w1342-h513 "Import folder from zip")
 
