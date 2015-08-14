@@ -10,7 +10,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 global bot
-bot = telegram.Bot(token='114313687:AAFbt4jveB_hhT-UhMBO1vnjZNruS0Mg1Z4')
+bot = telegram.Bot(token='HERE YOUR TOKEN')
 
 @app.route('/HOOK', methods=['POST'])
 def webhook_handler():
@@ -29,7 +29,7 @@ def webhook_handler():
 
 @app.route('/set_webhook', methods=['GET', 'POST'])
 def set_webhook():
-    s = bot.setWebhook('https://tutorial-telegram-bot-p92camcj.appspot.com/HOOK')
+    s = bot.setWebhook('https://YOUR GOOGLE APP ENGINE PROJECT ID.appspot.com/HOOK')
     if s:
         return "webhook setup ok"
     else:
