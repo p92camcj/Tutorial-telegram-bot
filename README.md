@@ -111,4 +111,4 @@ Now, knowing which will be our tools, go on!
 
 <a name="^4">4</a>:  Codenvy provides a container-based development environment whose goal is to remove the need for developers to configure or maintain local or VM-based developer environments for their projects. More info: [codenvy.com](http://www.codenvy.com/)
 
-<a name="^5">5</a>:  Google App Engine (often referred to as GAE or simply App Engine) is a platform as a service (PaaS) cloud computing platform for developing and hosting web applications in Google-managed data centers. 
+<a name="^5">5</a>:  Google App Engine (often referred to as GAE or simply App Engine) is a platform as a service (PaaS) cloud computing platform for developing and hosting web applications in Google-managed data centers. More info: [appengine.google.com](https://appengine.google.com/)
