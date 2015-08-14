@@ -86,7 +86,7 @@ Now, knowing which will be our tools, go on!
 >- Line 13 should be edited to include your token bot (BotFather gave you in step 1)  
 `bot = telegram.Bot(token='114313687:AAFbt4jveB_hhT-UhMBO1vnjZNruS0Mg1Z4')`
 >- Line 32 should be edited to include your ID project from GAE (Google App Engine)
-`    s = bot.setWebhook('https://tutorial-telegram-bot-p92camcj.appspot.com/HOOK')`
+`    s = bot.setWebhook('https://TYPE-YOUR-ID-PROJECT-NAME.appspot.com/HOOK')`
 
 25. Now everything are ready to work, so `Run` your project using the menu and submenu option.
 ![enter image description here](https://lh3.googleusercontent.com/eD-ufk3pI5bVgV9OK3HmnlHUDnwFsMgDCCfjiINoTpZYyKhmGA8pTt8-y2qnhJwwIlC-xTUCNPjqP8Y=w1342-h513 "Run Project")
