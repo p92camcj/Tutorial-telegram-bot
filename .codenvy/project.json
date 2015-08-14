@@ -1,0 +1,1 @@
+{"mixinTypes":[],"builders":{"configs":{}},"runners":{"configs":{"system:/python/web/python27_gae1914_ext_libs":{"ram":1000,"variables":{},"options":{}}},"default":"system:/python/web/python27_gae1914_ext_libs"},"type":"blank","attributes":{}}
