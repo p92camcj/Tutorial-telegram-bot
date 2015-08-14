@@ -95,7 +95,7 @@ Now, knowing which will be our tools, go on!
 26. Finally, you have to deploy it typing next command line on the `terminal`: `google_appengine/appcfg.py update /home/user/application/`. It ask for you your Google Account credential (email and pass), so you have to ingress them.
 27. If you have had some problems with the previous step and Google sends you an email about your security account, try the next method. Type the next command line on the `terminal`: `google_appengine/appcfg.py update /home/user/application --oauth2 --noauth_local_webserver`. It will print a link. Copy the code and return to terminal codenvy. Right-click on the terminal, select Paste from Browser and paste the code. Be happy :) ![enter image description here](https://lh4.googleusercontent.com/lQMeneNDCQtwYNGY0YsZk23A4co_3jZSGE4T2x0SmB8kdgOX4FYNgFdD8zMex1S3mwJjJiJO0gvWCSg=w1342-h513-rw "Problems Google?")
 28. Now, try to navegate to [https://tutorial-telegram-bot-p92camcj.appspot.com/set_webhook](https://tutorial-telegram-bot-p92camcj.appspot.com/set_webhook) and if all is correct, you must read "`webhook setup ok`"
-29. Now you speak to your bot in telegram, and if it repeats like a parrot everything you write, you will have successfully completed this tutorial. ![enter image description here](https://drive.google.com/file/d/0B05KqB61aXlWQjkxR3BYZzUxQkk/view?usp=sharing "Like a Parrot")
+29. Now you speak to your bot in telegram, and if it repeats like a parrot everything you write, you will have successfully completed this tutorial. ![enter image description here](https://drive.google.com/file/d/0B05KqB61aXlWQjkxR3BYZzUxQkk "Like a Parrot")
 
 
 
