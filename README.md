@@ -66,7 +66,7 @@ Now, knowing which will be our tools, go on!
 
 15. Click `Create Project` 
 
-16. Type whatever name you want for the project. For example: `tutorial telegram bot p92camcj`. Make sure the Project ID is also the same.![Creation Tutorial Telegram Bot p92camcj](http://i.imgur.com/lbLUnWw.png "Creation Tutorial Telegram Bot p92camcj")
+16. Type whatever name you want for the project. For example: `tutorial telegram bot p92camcj`. Make sure the Project ID is also the same and **note down it**, this is YOUR GOOGLE APP ENGINE PROJECT ID.![Creation Tutorial Telegram Bot p92camcj](http://i.imgur.com/lbLUnWw.png "Creation Tutorial Telegram Bot p92camcj")
 
 17. Create an account in [Codenvy.com](https://codenvy.com)
 
@@ -85,8 +85,8 @@ Now, knowing which will be our tools, go on!
 24. After that, you have to modify bot_gae.py file, in lines 13 and 32. ![Modify bot_gae.py](http://i.imgur.com/Pqx9nYK.png "Modify bot_gae.py") 
 >- Line 13 should be edited to include your token bot (BotFather gave you in step 1)  
 `bot = telegram.Bot(token='114313687:AAFbt4jveB_hhT-UhMBO1vnjZNruS0Mg1Z4')`
->- Line 32 should be edited to include your ID project from GAE (Google App Engine)
-`    s = bot.setWebhook('https://TYPE-YOUR-ID-PROJECT-NAME.appspot.com/HOOK')`
+>- Line 32 should be edited to include YOUR GOOGLE APP ENGINE PROJECT ID
+`    s = bot.setWebhook('https://YOUR GOOGLE APP ENGINE PROJECT ID.appspot.com/HOOK')`
 
 25. Now everything is ready to work, so `Run` your project using the menu and submenu option.
 ![Run Project](http://i.imgur.com/Kta36qt.png "Run Project")
