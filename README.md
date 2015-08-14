@@ -88,7 +88,7 @@ Now, knowing which will be our tools, go on!
 >- Line 32 should be edited to include your ID project from GAE (Google App Engine)
 `    s = bot.setWebhook('https://TYPE-YOUR-ID-PROJECT-NAME.appspot.com/HOOK')`
 
-25. Now everything are ready to work, so `Run` your project using the menu and submenu option.
+25. Now everything is ready to work, so `Run` your project using the menu and submenu option.
 ![enter image description here](https://lh3.googleusercontent.com/eD-ufk3pI5bVgV9OK3HmnlHUDnwFsMgDCCfjiINoTpZYyKhmGA8pTt8-y2qnhJwwIlC-xTUCNPjqP8Y=w1342-h513 "Run Project")
 26. You must see a `runner panel` below, you have to wait until all proccess have finished, and then open the `terminal` tab (near `console` active tab) 
 ![enter link description here](https://lh4.googleusercontent.com/wN2WgB8VcZeXcaLoY-WfoZvep5Jq8Prjfc-7S8ZhEBpXz1PX5NZLtCKuoTmI0SK8qYYuDisDvvcT--8=w1342-h513-rw "Console tab in runner panel")
