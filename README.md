@@ -10,7 +10,7 @@ By Julio Camacho [@p92camcj](mailto:p92camcj@gmail.com)
 How to create a Telegram Bot using only a Chromebook.
 ===================
 
-This tutorial helps you to create a new Telegram[^1] bot[^2] using only a Chromebook PC[^3] or a web browser (Google Chrome). We are going to use the tool Codenvy[^4], Google App Engine[^5] and a [Python Telegram Bot](https://github.com/leandrotoledo/python-telegram-bot)
+This tutorial helps you to create a new Telegram [^1] bot[^2] using only a Chromebook PC[^3] or a web browser (Google Chrome). We are going to use the tool Codenvy[^4], Google App Engine[^5] and a [Python Telegram Bot](https://github.com/leandrotoledo/python-telegram-bot)
 
 I have to thank [Leandro Toledo](https://github.com/leandrotoledo/) for having helped me in this process.
 
