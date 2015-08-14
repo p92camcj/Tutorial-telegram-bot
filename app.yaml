@@ -1,4 +1,4 @@
-application: tutorial-telegram-bot-p92camcj
+application: HERE YOUR GOOGLE App ENGINE PROJECT ID
 version: 1
 runtime: python27
 api_version: 1
