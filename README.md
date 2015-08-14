@@ -16,6 +16,9 @@ I have to thank [Leandro Toledo](https://github.com/leandrotoledo/) for having h
 
 Thanks to [Yukuku](https://github.com/yukuku/) for doing the tutorial that I followed and which I have used to do this one.
 
+Thanks to [Sooyh Wang](https://github.com/sooyhwang/Simple-Echo-Telegram-Bot) for let me use his code base.
+
+
 ----------
 
 Now, knowing which will be our tools, go on!
