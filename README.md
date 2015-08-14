@@ -1,4 +1,12 @@
 
+How to create a Telegram Bot using only a Chromebook.
+
+By Julio Camacho [@p92camcj](mailto:p92camcj@gmail.com)
+
+14 August, 2015
+
+----------
+
 Create a Telegram Bot using only a Chromebook
 ===================
 
@@ -88,6 +96,8 @@ Now, knowing which will be our tools, go on!
 27. If you have had some problems with the previous step and Google sends you an email about your security account, try the next method. Type the next command line on the `terminal`: `google_appengine/appcfg.py update /home/user/application --oauth2 --noauth_local_webserver`. It will print a link. Copy the code and return to terminal codenvy. Right-click on the terminal, select Paste from Browser and paste the code. Be happy :) ![enter image description here](https://lh4.googleusercontent.com/lQMeneNDCQtwYNGY0YsZk23A4co_3jZSGE4T2x0SmB8kdgOX4FYNgFdD8zMex1S3mwJjJiJO0gvWCSg=w1342-h513-rw "Problems Google?")
 28. Now, try to navegate to [https://tutorial-telegram-bot-p92camcj.appspot.com/set_webhook](https://tutorial-telegram-bot-p92camcj.appspot.com/set_webhook) and if all is correct, you must read "`webhook setup ok`"
 29. Now you speak to your bot in telegram, and if it repeats like a parrot everything you write, you will have successfully completed this tutorial. ![enter image description here](https://lh5.googleusercontent.com/Kg57qkGqfNcqsxRxmGBPhq3vRq-Tn2f82KJ0Urf_RiLMvBGHAetKlVqOpT789yrzSHVguOV-4MQHBhg=w1342-h513 "Like a Parrot")
+
+
 
 [^telegram]: Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. More info: [telegram.org](http://telegram.org/).
 
