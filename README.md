@@ -74,11 +74,11 @@ Now, knowing which will be our tools, go on!
 
 19. This step is very important. In the `Select Runner environment` you have to choose `Python/web/python27_gae1914_ext_libs`. Then press `Create`.![Select Runner environment](http://i.imgur.com/v42f6MP.png "Select Runner environment")
 
-20. Now you have to download a `test bot`. I have created one to do this tutorial. You can [use it](https://github.com/p92camcj/Tutorial-telegram-bot/archive/master.zip). 
+20. Now you have to import a `test bot`. I have created one to do this tutorial. You can [use it](https://github.com/p92camcj/Tutorial-telegram-bot). 
 
-21. Next step is to Upload Folder from a zip. Go to `menu/file/upload folder from zip` like it appears in this image![Import folder from zip](http://i.imgur.com/fXlnscQ.png "Import folder from zip")
+21. So go to `menu/file/Import Project/Import From Location...` like it appears in this image:![Import folder from location](http://i.imgur.com/ojUSTBz.png "Import folder location")
 
-22. Select the test bot zip and upload it.
+22. You have to choose in `Source Control` option `GitHub` and then paste this link on URL field like it appears in this image: ![Import from GitHub](http://i.imgur.com/x3VzbEC.png "Import from GitHub")
 
 23. Edit the first line of `app.yaml` file and type your Google App Engine project ID (step 16).  ![Modify app.yaml](http://i.imgur.com/0sdImIh.png "Modify app.yaml")
 
