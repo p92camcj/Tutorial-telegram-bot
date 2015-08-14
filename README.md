@@ -66,29 +66,28 @@ Now, knowing which will be our tools, go on!
 
 19. This step is very important. In the `Select Runner environment` you have to choose `Python/web/python27_gae1914_ext_libs`. Then press `Create`.![enter image description here](https://lh3.googleusercontent.com/FEYf9dtCi5LPGI3_BgaeE_FGEmqhSrYNScT8pGBZkFlZD07-FUs9-QDb4p0dMUoSOQjqAgwfOqV4tgg=w1342-h513 "Select Runner environment")
 
-20. Now you have to download a `test bot`. I have created one to do this tutorial. You can [use it](migithub). 
+20. Now you have to download a `test bot`. I have created one to do this tutorial. You can [use it](https://github.com/p92camcj/Tutorial-telegram-bot). 
 
 21. Next step is Upload Folder from a zip, go to `menu/file/upload folder from zip` like appear in this image![enter image description here](https://lh6.googleusercontent.com/rdbk7I2S-nA9I78auqlS52rloLp9OryvOm8D2abThVKhOFdycEYB7Xdol1hDAn-jd-FpQwLObD9nx7w=w1342-h513 "Import folder from zip")
 
-22. Select the test bot zip and upload it.
+21. Select the test bot zip and upload it.
 
-23. Edit the first line of `app.yaml` file and type your Google App Engine project ID (step 16).  ![enter image description here](https://lh4.googleusercontent.com/7VasLUL0LFKNC58O12hEvXgVavD8KoB7A4-OcvU2k9sQUpG7UHsw6840N7xPxZmKwCuQMlCQ8QKQ2-Y=w1342-h513-rw "Modify app.yaml")
+22. Edit the first line of `app.yaml` file and type your Google App Engine project ID (step 16).  ![enter image description here](https://lh4.googleusercontent.com/7VasLUL0LFKNC58O12hEvXgVavD8KoB7A4-OcvU2k9sQUpG7UHsw6840N7xPxZmKwCuQMlCQ8QKQ2-Y=w1342-h513-rw "Modify app.yaml")
 
-24. After that, you have to modify bot_gae.py file, in lines 13 and 32. ![enter image description here](https://lh3.googleusercontent.com/Hab4vuAWdftS8pmFryoGPaN5aZwnpNU9tAT2P40tlvTdXr-whR-p6J7N9_QfemYt8nom8TG0RmcCtWk=w1342-h513-rw "Modify bot_gae.py") 
+23. After that, you have to modify bot_gae.py file, in lines 13 and 32. ![enter image description here](https://lh3.googleusercontent.com/Hab4vuAWdftS8pmFryoGPaN5aZwnpNU9tAT2P40tlvTdXr-whR-p6J7N9_QfemYt8nom8TG0RmcCtWk=w1342-h513-rw "Modify bot_gae.py") 
 >- Line 13 should be edited to include your token bot (BotFather gave you in step 1)  
 `bot = telegram.Bot(token='114313687:AAFbt4jveB_hhT-UhMBO1vnjZNruS0Mg1Z4')`
 >- Line 32 should be edited to include your ID project from GAE (Google App Engine)
 `    s = bot.setWebhook('https://tutorial-telegram-bot-p92camcj.appspot.com/HOOK')`
 
-25. Now everything are ready to work, so `Run` your project using the menu and submenu option.
+24. Now everything are ready to work, so `Run` your project using the menu and submenu option.
 ![enter image description here](https://lh3.googleusercontent.com/eD-ufk3pI5bVgV9OK3HmnlHUDnwFsMgDCCfjiINoTpZYyKhmGA8pTt8-y2qnhJwwIlC-xTUCNPjqP8Y=w1342-h513 "Run Project")
-26. You must see a `runner panel` below, you have to wait until all proccess have finished, and then open the `terminal` tab (near `console` active tab) 
+25. You must see a `runner panel` below, you have to wait until all proccess have finished, and then open the `terminal` tab (near `console` active tab) 
 ![enter link description here](https://lh4.googleusercontent.com/wN2WgB8VcZeXcaLoY-WfoZvep5Jq8Prjfc-7S8ZhEBpXz1PX5NZLtCKuoTmI0SK8qYYuDisDvvcT--8=w1342-h513-rw "Console tab in runner panel")
-27. Finally, you have to deploy it typing next command line on the `terminal`: `google_appengine/appcfg.py update /home/user/application/`. It ask for you your Google Account credential (email and pass), so you have to ingress them.
-28. If you have had some problems with the previous step and Google sends you an email about your security account, try the next method. Type the next command line on the `terminal`: `google_appengine/appcfg.py update /home/user/application --oauth2 --noauth_local_webserver`. It will print a link. Copy the code and return to terminal codenvy. Right-click on the terminal, select Paste from Browser and paste the code. Be happy :) ![enter image description here](https://lh4.googleusercontent.com/lQMeneNDCQtwYNGY0YsZk23A4co_3jZSGE4T2x0SmB8kdgOX4FYNgFdD8zMex1S3mwJjJiJO0gvWCSg=w1342-h513-rw "Problems Google?")
-29. Now, try to navegate to [https://tutorial-telegram-bot-p92camcj.appspot.com/set_webhook](https://tutorial-telegram-bot-p92camcj.appspot.com/set_webhook) and if all is correct, you must read "`webhook setup ok`"
-30. Now you speak to your bot in telegram, and if it repeats like a parrot everything you write, you will have successfully completed this tutorial. ![enter image description here](https://lh5.googleusercontent.com/Kg57qkGqfNcqsxRxmGBPhq3vRq-Tn2f82KJ0Urf_RiLMvBGHAetKlVqOpT789yrzSHVguOV-4MQHBhg=w1342-h513 "Like a Parrot")
-
+26. Finally, you have to deploy it typing next command line on the `terminal`: `google_appengine/appcfg.py update /home/user/application/`. It ask for you your Google Account credential (email and pass), so you have to ingress them.
+27. If you have had some problems with the previous step and Google sends you an email about your security account, try the next method. Type the next command line on the `terminal`: `google_appengine/appcfg.py update /home/user/application --oauth2 --noauth_local_webserver`. It will print a link. Copy the code and return to terminal codenvy. Right-click on the terminal, select Paste from Browser and paste the code. Be happy :) ![enter image description here](https://lh4.googleusercontent.com/lQMeneNDCQtwYNGY0YsZk23A4co_3jZSGE4T2x0SmB8kdgOX4FYNgFdD8zMex1S3mwJjJiJO0gvWCSg=w1342-h513-rw "Problems Google?")
+28. Now, try to navegate to [https://tutorial-telegram-bot-p92camcj.appspot.com/set_webhook](https://tutorial-telegram-bot-p92camcj.appspot.com/set_webhook) and if all is correct, you must read "`webhook setup ok`"
+29. Now you speak to your bot in telegram, and if it repeats like a parrot everything you write, you will have successfully completed this tutorial. ![enter image description here](https://lh5.googleusercontent.com/Kg57qkGqfNcqsxRxmGBPhq3vRq-Tn2f82KJ0Urf_RiLMvBGHAetKlVqOpT789yrzSHVguOV-4MQHBhg=w1342-h513 "Like a Parrot")
 
 [^telegram]: Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. More info: [telegram.org](http://telegram.org/).
 
