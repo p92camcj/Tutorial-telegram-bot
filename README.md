@@ -80,12 +80,12 @@ Now, knowing which will be our tools, go on!
 
 22. You have to choose in `Source Control` option `GitHub` and then paste this link on URL field like it appears in this image: ![Import from GitHub](http://i.imgur.com/x3VzbEC.png "Import from GitHub")
 
-23. Edit the first line of `app.yaml` file and type your Google App Engine project ID (step 16).  ![Modify app.yaml](http://i.imgur.com/0sdImIh.png "Modify app.yaml")
+23. Edit the first line of `app.yaml` file and type **YOUR GOOGLE APP ENGINE PROJECT ID** (step 16).  ![Modify app.yaml](http://i.imgur.com/0sdImIh.png "Modify app.yaml")
 
 24. After that, you have to modify bot_gae.py file, in lines 13 and 32. ![Modify bot_gae.py](http://i.imgur.com/Pqx9nYK.png "Modify bot_gae.py") 
 >- Line 13 should be edited to include your token bot (BotFather gave you in step 1)  
 `bot = telegram.Bot(token='114313687:AAFbt4jveB_hhT-UhMBO1vnjZNruS0Mg1Z4')`
->- Line 32 should be edited to include YOUR GOOGLE APP ENGINE PROJECT ID
+>- Line 32 should be edited to include **YOUR GOOGLE APP ENGINE PROJECT ID**
 `    s = bot.setWebhook('https://tutorial-telegram-bot-p92camcj.appspot.com/HOOK')`
 
 25. Now everything is ready to work, so `Run` your project using the menu and submenu option.
